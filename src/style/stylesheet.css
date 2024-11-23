@@ -1,0 +1,94 @@
+#article-1 {
+  background-color: cyan;
+}
+
+#article-1-image {
+  background-color: darkgoldenrod;
+}
+
+#article-2 {
+  background-color: darkkhaki;
+}
+
+#article-2-image {
+  background-color: darkslateblue;
+}
+
+/* Start Here */
+#gap-line {
+  margin: 0;
+  border-top: 3px solid;
+  opacity: 0.50;
+}
+
+#navbar {
+  background-color: #fbe192;
+}
+
+#button {
+  border-radius: 24px;
+}
+
+#contents {
+  padding: 2em;
+}
+
+#contents-1 {
+  margin: 1em 0;
+  padding: 1em;
+}
+
+#contents-1-content {
+  padding: 0.5em;
+}
+
+#contents-1-number {
+  color: gray;
+  opacity: 0.35;
+}
+
+#contents-1-content-title {
+  font-size: 1.2em;
+}
+
+#article {
+  background-color: #f7f9fa;
+  padding: 1em 2em;
+}
+
+@media screen and (max-width: 1400px) {
+  #carousel-right {
+    display: none;
+  }
+
+  #carousel {
+    padding: 2em 1em;
+  }
+
+  #carousel-left-caption {
+    padding: 0 1em;
+  }
+
+  #carousel-left-button {
+    margin: 1em 0;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  #carousel-left-button {
+    margin: 1em 0;
+    width: 20%;
+  }
+
+  #carousel {
+    margin: 2em 0;
+  }
+
+  #wave {
+    margin-top: -300px;
+  }
+
+  #contents-1 {
+    padding: 1em;
+  }
+}
